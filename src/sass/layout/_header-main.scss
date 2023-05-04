@@ -59,8 +59,9 @@
 }
 .header__label {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   color: inherit;
+  text-align: center;
   @include tablet {
     font-size: 24px;
   }
