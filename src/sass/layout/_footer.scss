@@ -9,7 +9,7 @@
   gap: 5px;
   align-items: center;
   color: $main-font-bright-color;
-  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.35), 0px -4px 4px rgba(0, 0, 0, 0.25);
   @include mobile-retina {
     background-image: url('/src/images/background/footer_mobile_vecteezy_impressive-food-and-drinks_19558963_462\ 3@2x.webp');
     background-repeat: no-repeat;
