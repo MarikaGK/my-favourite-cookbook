@@ -1,2 +1,10 @@
 @import './common';
-@import './example';
+@import './utils/variables';
+@import './base/root';
+@import './base/list';
+@import './base/nav';
+@import './base/form';
+@import './base/container';
+@import './layout/header-main';
+@import './layout/main';
+@import './layout/footer';

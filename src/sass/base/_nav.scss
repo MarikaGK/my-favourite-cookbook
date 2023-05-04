@@ -1,0 +1,21 @@
+.nav__list {
+  display: flex;
+  color: $main-font-bright-color;
+  text-shadow: 0 0 5px $main-font-dark-color;
+}
+.nav__item {
+  font-size: 14px;
+  cursor: pointer;
+  @include tablet {
+    font-size: 16px;
+  }
+}
+.nav__item:not(:last-child) {
+  margin-right: 20px;
+  @include tablet {
+    margin-right: 25px;
+  }
+  @include desktop {
+    margin-right: 30px;
+  }
+}

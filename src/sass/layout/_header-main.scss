@@ -1,0 +1,102 @@
+.header {
+  background-image: url('/src/images/background/mobile_vecteezy_impressive-food-and-drinks_19558963_462\ 1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: $main-font-bright-color;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @include mobile-retina {
+    background-image: url('/src/images/background/mobile_vecteezy_impressive-food-and-drinks_19558963_462\ 1@2x.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @include tablet {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 265px;
+    background-image: url('/src/images/background/tablet_vecteezy_impressive-food-and-drinks_19558963_462\ 1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @include tablet-retina {
+    background-image: url('/src/images/background/tablet_vecteezy_impressive-food-and-drinks_19558963_462\ 1@2x.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @include desktop {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 332px;
+    background-image: url('/src/images/background/desktop_vecteezy_impressive-food-and-drinks_19558963_462\ 1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @include desktop-retina {
+    background-image: url('/src/images/background/desktop_vecteezy_impressive-food-and-drinks_19558963_462\ 1@2x.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header__logo {
+  display: flex;
+}
+.header__form {
+  position: relative;
+  color: inherit;
+  padding: 20px 0;
+}
+.header__label {
+  font-weight: 400;
+  font-size: 16px;
+  color: inherit;
+  text-align: center;
+  @include tablet {
+    font-size: 24px;
+  }
+  @include desktop {
+    font-size: 36px;
+  }
+}
+.header__input {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: inherit;
+  padding-top: 14px;
+  border-bottom: 1px solid $main-font-bright-color;
+  &:active,
+  &:focus-visible {
+    border-bottom: 2px solid $main-font-bright-color;
+  }
+  @include desktop {
+    font-size: 24px;
+  }
+}
+.header__search-btn {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  background: #fff0;
+  border: none;
+  width: fit-content;
+  height: 20px;
+  cursor: pointer;
+}
+.header__search-icon {
+  fill: $main-font-bright-color;
+  stroke: $main-font-bright-color;
+  color: $main-font-bright-color;
+}
