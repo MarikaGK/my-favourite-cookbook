@@ -1,5 +1,5 @@
 .footer {
-  background-image: url('/src/images/background/footer_mobile_vecteezy_impressive-food-and-drinks_19558963_462\ 3.webp');
+  background-image: url('/src/images/background/footer_mobile_vecteezy_impressive-food-and-drinks.webp');
   background-repeat: no-repeat;
   background-size: cover;
   height: 62px;
@@ -9,32 +9,33 @@
   gap: 5px;
   align-items: center;
   color: $main-font-bright-color;
-  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.35), 0px -4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.35),
+    0px -4px 4px rgba(0, 0, 0, 0.25);
   @include mobile-retina {
-    background-image: url('/src/images/background/footer_mobile_vecteezy_impressive-food-and-drinks_19558963_462\ 3@2x.webp');
+    background-image: url('/src/images/background/footer_mobile_vecteezy_impressive-food-and-drinks@2x.webp');
     background-repeat: no-repeat;
     background-size: cover;
   }
   @include tablet {
     flex-direction: row;
     height: 60px;
-    background-image: url('/src/images/background/footer_tablet_vecteezy_impressive-food-and-drinks_19558963_462\ 2.webp');
+    background-image: url('/src/images/background/footer_tablet_vecteezy_impressive-food-and-drinks.webp');
     background-repeat: no-repeat;
     background-size: cover;
   }
   @include tablet-retina {
-    background-image: url('/src/images/background/footer_tablet_vecteezy_impressive-food-and-drinks_19558963_462\ 2@2x.webp');
+    background-image: url('/src/images/background/footer_tablet_vecteezy_impressive-food-and-drinks@2x.webp');
     background-repeat: no-repeat;
     background-size: cover;
   }
   @include desktop {
     height: 70px;
-    background-image: url('/src/images/background/footer_desktop_vecteezy_impressive-food-and-drinks_19558963_462\ 2.webp');
+    background-image: url('/src/images/background/footer_desktop_vecteezy_impressive-food-and-drinks.webp');
     background-repeat: no-repeat;
     background-size: cover;
   }
   @include desktop-retina {
-    background-image: url('/src/images/background/footer_desktop_vecteezy_impressive-food-and-drinks_19558963_462\ 2@2x.webp');
+    background-image: url('/src/images/background/footer_desktop_vecteezy_impressive-food-and-drinks@2x.webp');
     background-repeat: no-repeat;
     background-size: cover;
   }
