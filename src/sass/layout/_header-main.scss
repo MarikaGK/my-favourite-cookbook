@@ -87,6 +87,15 @@
 .header__search-btn {
   position: absolute;
   right: 0;
-  bottom: 0;
-  background-image: url();
+  bottom: 20px;
+  background: #fff0;
+  border: none;
+  width: fit-content;
+  height: 20px;
+  cursor: pointer;
+}
+.header__search-icon {
+  fill: $main-font-bright-color;
+  stroke: $main-font-bright-color;
+  color: $main-font-bright-color;
 }
