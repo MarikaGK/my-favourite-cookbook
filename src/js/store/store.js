@@ -1,0 +1,33 @@
+import { qs, qsa } from '../utils/dom';
+
+export const store = {
+  language: 'en',
+  user: null,
+  //   genresList: [],
+  category: 'all',
+  //   searchType: 'movie',
+  page: 1,
+  mode: null,
+  modes: ['trend', 'find', 'queue', 'watched'],
+  refs: {
+    themeLightBtnDOM: qs('.change-theme__btn'),
+    themeDarkBtnDOM: qs('.change-theme__btn-dark'),
+    bodyDOM: qs('body'),
+    headerContainerDOM: qs('.header container"'),
+    headerInputDOM: qs('.header input"'),
+    paginationDOM: qs('[data-root="pagination"]'),
+    detailsModalDOM: qs('[data-modal]'),
+    galleryDOM: qs('.gallery'),
+    btnsLibsDOM: qsa('.library-menu__button'),
+    navMenuDOM: qs('.navigation__menu'),
+    menuLinksDOM: qsa('.navigation__link'),
+    homeLinkDOM: qs('[init]'),
+    refLibsSelectDOM: qs('[data-root="library-buttons"]'),
+    refLoginHeaderDOM: qs('[data-root="header-login"]'),
+    btnLoginDOM: qs('[data-action="login-google"]'),
+    btnLogoutDOM: qs('[data-action="logout"]'),
+    authorsModalLinkDOM: qs('[data-action="authors-modal"]'),
+    refLangSelectorDOM: qs('.change-lang'),
+    scrollUpDownBtnDOM: qs('[data-action="scroll-up-down"]'),
+  },
+};
